@@ -13,4 +13,6 @@ Once implemented the virtual-card system will achieve the below:
 - A virtual card that will be created and stored digitally,on the MyCiti mobile app.
 - An easy transaction process for the user to load money on to their myconnect card which is accessible at anytime
 - Since virtual cards are only accessible digitally and not physically, they can't be lost or stolen in the traditional sense. If your virtual card number is compromised, you can simply generate a new one.
+
+Links: https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System_Assignment-3/blob/main/SPECIFICATION.md
   
