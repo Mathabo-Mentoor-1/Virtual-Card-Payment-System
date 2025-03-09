@@ -90,7 +90,7 @@ Transferring money from one account to another is a core functionality in modern
 
 3. **Operational Feasibility**
 - Process Automation: The process of transferring funds is highly automated and does not require significant human intervention once initiated. This ensures high efficiency, reduced operational overhead, and lower chances of human error.
-Real-Time or Near-Real-Time Processing: With advancements in technology such as real-time gross settlement (RTGS) systems, money transfers can be processed instantly or within minutes, making the process faster and more efficient for customers.
+- Real-Time or Near-Real-Time Processing: With advancements in technology such as real-time gross settlement (RTGS) systems, money transfers can be processed instantly or within minutes, making the process faster and more efficient for customers.
 - Low Risk of Failure: With well-tested protocols and infrastructure in place, the risk of transaction failure is minimal. In cases of failure, automated systems are in place to notify users and enable the quick reversal of transactions.
 
 4. **Legal and Regulatory Feasibility**
