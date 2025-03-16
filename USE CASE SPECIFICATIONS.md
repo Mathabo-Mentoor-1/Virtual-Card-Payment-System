@@ -1,24 +1,24 @@
 1.
-Use Case: Login to Payment Platform
+**Use Case:** Login to Payment Platform
 
-Actor: Customer
+**Actor:** Customer
 
-Description: This use case describes the process a customer follows to log into a virtual-card payment platform to access their account and manage their virtual cards, transactions, and other account settings.
+**Description:** This use case describes the process a customer follows to log into a virtual-card payment platform to access their account and manage their virtual cards, transactions, and other account settings.
 
-Preconditions:
+**Preconditions:**
 
 - The customer has a registered account on the virtual-card payment platform.
 - The customer has access to the internet and a device (e.g., computer, mobile phone, tablet).
 - The customer has a valid username/email address and password associated with their account.
 - The virtual-card payment platform is operational, and the login page is accessible
 
-Postconditions:
+**Postconditions:**
 
 - The customer is successfully logged into their account and can access their dashboard or account homepage.
 - The customer can view details of their virtual card(s), transactions, and other account-related information.
 - The customer can perform various actions like making payments, checking transaction history, or generating new virtual cards.
 
-Basic Flow:
+**Basic Flow:**
 
 1. **Customer navigates to the login page**:The customer opens the virtual-card payment platform website or mobile app and is directed to the login screen.
 2. **Enter credentials**: The customer enters their registered email/username and password in the respective fields.
@@ -28,7 +28,7 @@ Basic Flow:
 6. **Confirmation**:The system displays the customer’s account information (e.g., virtual card details, transaction history, etc.).
 7. **End of Flow**: The customer is logged in and can begin using the platform.
 
-Alternative Flows:
+**Alternative Flows:**
 
  **1. Invalid Credentials**
 
@@ -66,28 +66,28 @@ If the customer enters incorrect credentials (wrong email/username or password),
 - The customer is unable to log in and must attempt to log in again once the system is back online.
 
 2.
-Use Case: Register virtual card
+**Use Case:** Register virtual card
 
-Actor: Customer
+**Actor:** Customer
 
-Description:
+**Description:**
 
 - The virtual card is a digital representation of a physical or separate payment card that can be used for online electronic transactions. The registration process includes providing necessary details, such as the customer’s personal information and payment preferences, and generating a unique virtual card number.
 
-Preconditions:
+**Preconditions:**
 
 - The customer must be registered and authenticated in the virtual-card payment system (via username/password or other authentication mechanisms).
 - The customer has access to a valid and active payment method, such as a credit card, debit card, or bank account, to link to the virtual card.
 - The customer has a stable internet connection to complete the registration process.
 
-Postconditions:
+**Postconditions:**
 
 - A new virtual card is generated and linked to the customer’s account in the system.
 - The customer can use the virtual card for online transactions, payments, and other supported use cases.
 - The customer receives a confirmation notification or email with the virtual card details.
 - The virtual card is added to the customer’s wallet or available within their account for future transactions.
 
-Basic Flow:
+**Basic Flow:**
 
 - **Customer Login**: The customer logs into their virtual-card payment system account.
 - **Initiate Virtual Card Registration**: The customer navigates to the "Virtual Card" section and selects the option to "Create a New Virtual Card."
@@ -100,7 +100,7 @@ Basic Flow:
 - **Confirmation**: The system displays the virtual card details on the screen and sends a confirmation email or notification to the customer.
 - **End**: The virtual card is successfully created and ready for use.
 
-Alternative Flows:
+**Alternative Flows:**
 
 **1. Invalid Payment Method**
 
@@ -126,27 +126,27 @@ Alternative Flows:
 - The customer can try the registration again or contact customer support for further assistance.
 
 3.
-Use Case: Make payment
+**Use Case:** Make payment
 
-Actor: Customer,Merchant & Payment Gateway
+**Actor:** Customer,Merchant & Payment Gateway
 
-Description: A customer makes a payment for services using a virtual card. The system processes the payment, deducting the correct amount from the virtual card balance and completing the transaction.
+**Description:** A customer makes a payment for services using a virtual card. The system processes the payment, deducting the correct amount from the virtual card balance and completing the transaction.
 
-Preconditions:
+**Preconditions:**
 
 - **Customer Account**: The customer must have an active account in the virtual card payment system.
 - **Virtual Card**: The customer must have a valid virtual card with sufficient funds or credit to cover the purchase.
 - **Payment Gateway Access**: The system must be connected to a payment gateway for the transaction to be processed.
 - **Merchant Acceptance**: The merchant must accept payments via virtual cards.
 
-Postconditions:
+**Postconditions:**
 
 - **Payment Successful**: The transaction is successfully completed, and the amount is deducted from the virtual card balance.
 - **Transaction Record**: A payment transaction record is created, detailing the transaction date, merchant, amount, and transaction ID.
 - **Notification**: The customer receives a confirmation of the payment (via email, SMS, or app notification).
 - **Merchant Receives Funds**: The merchant receives the agreed amount, minus any processing fees, as per the agreement with the payment provider.
 
-Basic Flow:
+**Basic Flow:**
 
 **Customer Initiates Payment**:
 
@@ -177,7 +177,7 @@ Basic Flow:
 - The merchant is notified of the successful payment.
 - The merchant’s account is credited with the payment, minus any fees.
 
-Alternative Flows:
+**Alternative Flows:**
 
 **1. Insufficient Funds or Credit**
 
@@ -209,22 +209,22 @@ Alternative Flows:
   - The customer may contact the merchant for more details or choose another item to purchase.
 
 4.
-Use Case: Check payment status
+**Use Case:** Check payment status
 
-Actor: Customer,Merchant & Payment Gateway
+**Actor:** Customer,Merchant & Payment Gateway
 
-Description:
+**Description:**
 
 This use case describes the process in which a customer checks the payment status for a transaction made using their virtual card in a virtual-card payment system. The customer can verify whether a payment has been successfully processed, is pending, or has failed, through a customer-facing interface (e.g., mobile app, website).
 
-Preconditions:
+**Preconditions:**
 
 - The customer has an active virtual card issued by the system.
 - The customer has made at least one payment using the virtual card.
 - The customer is authenticated and logged into their account (either via website or mobile app).
 - The payment system must be operational, and the relevant payment gateway should have been notified of the payment
 
-Postconditions:
+**Postconditions:**
 
 - **Successful Outcome:** The customer is presented with the current payment status of the specific transaction, which could be:
 
@@ -234,7 +234,7 @@ Postconditions:
 
 - **Failed Outcome:** If the customer encounters issues (e.g., payment not found), they should be provided with a relevant error message and potential next steps (e.g., contact support, retry payment, etc.).
 
-Basic Flow:
+**Basic Flow:**
 
 **Customer Logs In:**
 
@@ -253,7 +253,7 @@ Basic Flow:
 - **View Payment Status:**The system displays the payment status along with any relevant details (e.g., a success message, pending status with expected time for completion, or a failed status with a reason code).
 - **End Process:**The customer can either choose to check another payment, go back to the dashboard, or log out.
 
-Alternative Flows:
+**Alternative Flows:**
 
 **No Transaction Found:**
 
@@ -278,25 +278,25 @@ Alternative Flows:
 - The customer can attempt to reprocess the payment, or the system may offer instructions on resolving the issue (e.g., update payment information, ensure sufficient funds).
 
 5.
-Use Case: Notify user of payment
+**Use Case:** Notify user of payment
 
-Actor: Notification Service
+**Actor:** Notification Service
 
-Description:
-
-- The Payment Notification Service is responsible for notifying users about the status of their virtual card payments. This notification system will alert users via email, SMS, or app notification when a payment is made successfully, fails, or encounters an issue.
-
-Preconditions:
+**Description:**
 
 - The Payment Notification Service is responsible for notifying users about the status of their virtual card payments. This notification system will alert users via email, SMS, or app notification when a payment is made successfully, fails, or encounters an issue.
 
-Postconditions:
+**Preconditions:**
+
+- The Payment Notification Service is responsible for notifying users about the status of their virtual card payments. This notification system will alert users via email, SMS, or app notification when a payment is made successfully, fails, or encounters an issue.
+
+**Postconditions:**
 
 - The user receives an appropriate notification about the payment status (successful, failed, or pending).
 - The payment notification is logged for auditing purposes.
 - The system ensures delivery of the notification (e.g., retries in case of failure).
 
-Basic Flow:
+**Basic Flow:**
 
 **Step 1: Payment Initiation**
 
@@ -319,7 +319,7 @@ Basic Flow:
 
 - The user receives the notification on their chosen communication platform (email, SMS, or app).
 
-Alternative Flows:
+**Alternative Flows:**
 
 **Payment Failure**
 
@@ -341,15 +341,15 @@ Alternative Flows:
 
 6.
 
-Use Case: Send payment of notification
+**Use Case:** Send payment of notification
 
-Actor: Notification Service
+**Actor:** Notification Service
 
-Description:
+**Description:**
 
 - The Notification Service in a virtual-card payment system is responsible for sending notifications (such as payment confirmation, payment failure, or payment status updates) to users after a transaction has been completed. These notifications ensure that users are informed about the status of their payments, whether successful or failed, and provide additional information as needed.
 
-Preconditions:
+**Preconditions:**
 
 - The user has successfully made a payment using the virtual card system.
 - The payment transaction has been processed and verified by the payment gateway or processor.
@@ -357,13 +357,13 @@ Preconditions:
 - The notification service is operational and ready to send notifications.
 - The transaction status (success or failure) is available.
 
-Postconditions:
+**Postconditions:**
 
 - The user receives a notification with the details of the payment status.
 - The system logs the notification event for future audit or troubleshooting.
 - If applicable, the user is informed of any necessary follow-up actions (e.g., retrying a failed payment).
 
-Basic Flow:
+**Basic Flow:**
 
 **Step 1: User initiates a payment**
 
@@ -419,15 +419,15 @@ Alternative Flows:
 - The failure event is logged for auditing purposes and troubleshooting.
 
 7.
-Use Case: Add funds to card
+**Use Case:** Add funds to card
 
-Actor: Bank
+**Actor:** Bank
 
-Description:
+**Description:**
 
 - The "Add Funds to Card" process allows a user to deposit money into their virtual card to facilitate online transactions. The funds can be added from various payment sources, including bank accounts, linked wallets, or other pre-defined funding sources.
 
-Preconditions:
+**Preconditions:**
 
 - The user must have an active account with the bank or payment provider.
 - The user must have an active virtual card linked to their account.
@@ -435,14 +435,14 @@ Preconditions:
 - The user must be authenticated and logged into the system.
 - The virtual card should not be restricted or frozen (it should be in good standing).
 
-Postconditions:
+**Postconditions:**
 
 - The requested funds are successfully transferred to the virtual card.
 - The balance of the virtual card is updated and reflected in real time.
 - A confirmation notification is sent to the user, detailing the amount added and the updated balance.
 - The transaction history of the virtual card is updated to reflect the addition of funds.
 
-Basic Flow:
+**Basic Flow:**
 
 **User Authentication:**
 
@@ -479,7 +479,7 @@ Basic Flow:
 
 - The user receives a confirmation notification (email, SMS, or in-app notification) detailing the amount added and updated card balance.
 
-Alternative Flows:
+**Alternative Flows:**
 
 **Insufficient Funds in Source Account:**
 
@@ -506,11 +506,11 @@ Alternative Flows:
 
 8.
 
-Use Case: Verify payment security
+**Use Case:** Verify payment security
 
-Actor: Bank & Fraud Detection System
+**Actor:** Bank & Fraud Detection System
 
-Description:
+**Description:**
 
 - The payment security for the virtual-card payment system focuses on ensuring that all transactions are authorized and monitored to prevent fraud. It involves encryption, authentication, and fraud detection algorithms to protect both the cardholder and the bank.
 - **Encryption**: All data transmitted during the transaction, including card details and personal information, must be encrypted using secure protocols like SSL/TLS to prevent eavesdropping and tampering.
@@ -518,7 +518,7 @@ Description:
 - **Authentication**: Multi-factor authentication (MFA) or biometric authentication (such as fingerprint or facial recognition) is used to verify the identity of the cardholder.
 - **Fraud Detection Algorithms**: Machine learning or rule-based systems monitor for suspicious patterns in transactions, such as unusual locations or amounts, and trigger alerts for further review.
 
-Preconditions:
+**Preconditions:**
 
 These are the conditions that must be true before the transaction can proceed.
 
@@ -528,7 +528,7 @@ These are the conditions that must be true before the transaction can proceed.
 - **System Availability**: The fraud detection and payment system should be operational, ensuring that there are no service outages.
 - **Virtual Card Enabled for Transactions**: The virtual card must be enabled for online or virtual transactions.
 
-Postconditions:
+**Postconditions:**
 
 These conditions must be true after the transaction has been completed.
 
@@ -538,7 +538,7 @@ These conditions must be true after the transaction has been completed.
 - **Account Updated**: The virtual card balance or linked bank account is updated accordingly, reflecting the payment amount or transaction.
 - **Virtual Card Status (if applicable)**: If the transaction is flagged as fraudulent, the virtual card may be deactivated, and the user may be asked to report the fraud.
 
-Basic Flow:
+**Basic Flow:**
 
 The basic flow outlines the primary sequence of events for a successful transaction.
 
@@ -550,7 +550,7 @@ The basic flow outlines the primary sequence of events for a successful transact
 - **Merchant Confirmation**: The merchant receives the payment confirmation and the transaction is completed.
 - **Logging**: The system logs the transaction, including relevant details for future reference.
 
-Alternative Flows:
+**Alternative Flows:**
 
 The alternative flows cover scenarios where the basic flow is interrupted or where certain conditions are not met.
 
