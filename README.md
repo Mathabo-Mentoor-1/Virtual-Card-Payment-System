@@ -15,6 +15,6 @@ Once implemented the virtual-card system will achieve the below:
 - Since virtual cards are only accessible digitally and not physically, they can't be lost or stolen in the traditional sense. If your virtual card number is compromised, you can simply generate a new one.
 
 Links: 
-- SPECIFICATION.md (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System_Assignment-3/blob/main/SPECIFICATION.md)
-- ARCHITECTURE.md (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System_Assignment-3/blob/main/ARCHITECTURE.md)
+- SPECIFICATION.md (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/SPECIFICATION.md)
+- ARCHITECTURE.md ()
   
