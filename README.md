@@ -17,4 +17,5 @@ Once implemented the virtual-card system will achieve the below:
 Links: 
 - SPECIFICATION.md (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/SPECIFICATION.md)
 - ARCHITECTURE.md (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ARCHITECTURE.md)
+- AGILE PLANNING DOCUMENT.md (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/AGILE%20PLANNING%20DOC.md)
   
