@@ -1,3 +1,7 @@
+**User Stories**
+
+
+
 | Story ID | User Story                                                                                                                                                                                             | Acceptance Criteria                                                                                                                                                                                                                                                                                                                                               | Priority (High/Medium/Low) |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
 | 1        | As a customer, I want to register a virtual card so that I can make secure payments.                                                                                                                   | \> The customer is prompted to enter basic information (name, email, and password).<br>\> The system verifies the provided information for validity.<br>\> A confirmation email is sent.<br>\> The virtual card is created successfully and shown to the customer.                                                                                                | High                       |
@@ -8,3 +12,22 @@
 | 6        | As a merchant, I want to refund virtual card transactions so I can handle customer returns.                                                                                                            | \> Merchant can issue a refund using the virtual card information.<br>\> Refund transaction is processed correctly, updating the system.<br>\> Customer’s account shows the refunded amount.                                                                                                                                                                      | High                       |
 | 7        | As a customer (related to bank), I want to securely make payments with my virtual card to ensure my actual bank details are not exposed during transactions.                                           | \> The virtual card can be used to complete online transactions.<br>\> Payments are processed successfully, and transaction records are visible in the user’s account history.<br>\> The virtual card details are not shared with the merchant, only used for the transaction.<br>\> The system notifies the user of any suspicious transactions.                 | High                       |
 | 8        | As a customer (related to bank), I want to create a virtual card so that I can make online payments securely without exposing my physical card details.                                                | \> The user can generate a virtual card through the bank's mobile app or website.<br>\> The virtual card includes a card number, expiry date, and CVV.<br>\> The virtual card is valid for a specified period or until manually canceled by the user.<br>\> The system sends an email confirmation to the user after card creation.                               | High                       |
+
+
+
+
+
+
+**Product Backlog**
+
+
+| Story ID | User Story                                                                                                                                        | Priority    | Effort | Depedencies                                    |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ------ | ---------------------------------------------- |
+| 1        | As a customer, I want to generate a virtual card so I can make secure online transactions.                                                        | Must Have   | 5      | Virtual card generation, Payment processing    |
+| 2        | As a user, I want to load funds onto my virtual card so that I can use it for transactions.                                                       | Must Have   | 5      | Secure bank account                            |
+| 3        | As a merchant, I want to receive instant notifications of successful virtual card transactions so that I can update inventory and process orders. | Must Have   | 4      | Notification service, Payment API              |
+| 4        | As a merchant, I want to manage virtual card payment refunds through my dashboard so that I can handle customer disputes easily.                  | Should Have | 3      | Refund API, Dashboard UI                       |
+| 5        | As a customer (related to bank), I want to view transaction history for my virtual card.                                                          | Should Have | 3      | Virtual card creation, transaction logging     |
+| 6        | As a customer (related to bank), I want to view the details of my virtual card (number, expiry, CVV) securely.                                    | Must Have   | 5      | Virtual card creation, secure data storage     |
+| 7        | As an administrator, I want to generate reports on virtual card usage to track payments.                                                          | Should Have | 5      | Virtual card transaction tracking system       |
+| 8        | As an admin, I want to track fraudulent activity across all virtual cards for security.                                                           | Must Have   | 5      | Fraud detection system, Transaction monitoring |
