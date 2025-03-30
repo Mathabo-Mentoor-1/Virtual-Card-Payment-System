@@ -26,6 +26,7 @@ Explanation of my board:
 
 *   This visualization allows team members to quickly see the status of each payment request, identify bottlenecks, and ensure nothing is overlooked. It fosters transparency and helps prioritize tasks by their stage in the workflow.
     
+<br>
 
 2\. Limiting Work-in-Progress (WIP)
 
