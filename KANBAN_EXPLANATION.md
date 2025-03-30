@@ -1,14 +1,14 @@
-Kanband Board
+**Kanband Board**
 
-Definition of Kanban Board:
+**Definition of Kanban Board:**
 
 *   A kanban board is an agile project management tool designed to help visualize work, limit work-in-progress, and maximize efficiency (or flow). It can help both agile and DevOps teams establish order in their daily work.
 
 <br>
 
-Explanation of my board:
+**Explanation of my board:**
 
-1\. Visualizing Workflow
+**1\. Visualizing Workflow**
 
 *   In a virtual-card payment system, the Kanban board would typically represent the various stages of the payment process, from initiation to final approval or rejection. The stages on the board can be categorized into columns that represent the flow of tasks (payments) as they progress through the system. Here's an example of how this might look:
     
@@ -28,13 +28,12 @@ Explanation of my board:
     
 <br>
 
-2\. Limiting Work-in-Progress (WIP)
+**2\. Limiting Work-in-Progress (WIP)**
 
 *   A key principle in Kanban is limiting work-in-progress (WIP). By setting WIP limits on each column (or stage) of the workflow, the system ensures that no one is overwhelmed with too many tasks at once, which can reduce quality and efficiency. In the context of a virtual-card payment system, WIP limits might be applied to columns like "In Progress" or "Ready for Approval."
     
 *   For example:
     
-
 1\. In Progress: You might set a WIP limit of 5, meaning no more than five payments can be processed at the same time. Once the team finishes one, another payment request can move into that stage.
 
 2\. Ready for Approval: The approval stage might also have a WIP limit to ensure that the approval team isn't overwhelmed.
@@ -43,7 +42,7 @@ Explanation of my board:
 
 <br>
 
-3\. Supporting Agile Principles
+**3\. Supporting Agile Principles**
 
 *   The Agile Manifesto emphasizes values like customer collaboration, responding to change, and delivering working software frequently. A Kanban board directly supports these principles by:
     
