@@ -1,3 +1,13 @@
+**Template Analysis and Selection**
+<br>
+<br>
+**Justification** :
+For my Virtual-Card Payment System project the most suitable choice would be the Automated Kanban. Using the Automated Kanban, would allow me to automate the flow of tasks in the system, which is ideal for a Virtual-Card Payment System that requires frequent updates, iterations, and tracking of progress. Automation can help with managing the continuous development cycles, bug fixes, and deployment tasks typically required in such a complex system. I would be able to easily set up automated triggers to move tasks through different stages, ensuring smooth operations and faster response times. Therefore, Automated Kanban will help keep my project organized and on track, with automated processes to enhance efficiency.
+<br>
+<br>
+**Comparison Table**
+<br>
+
 | No. | Feature               | Basic Kanban                                                                         | Automated Kanban                                                             | Bug Triage                                                                                                                                         | Team Planning                                                                                                                                                              |
 | --- | --------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Definition            | A visual project management method using boards to manage tasks.                     | Kanban with automation to move cards or trigger actions.                     | A process to prioritize and categorize bugs in a backlog.                                                                                          | A collaborative process for planning, scheduling, and tracking team tasks and goals.                                                                                       |
