@@ -4,7 +4,7 @@
 <br>
 ![image](https://github.com/user-attachments/assets/68c183ec-9487-4985-96e7-2da77b70d9ca)  
 <br>
-<br>
+#### **Explanation of customization choices**
 
 #### 1\. **Backlog**
 
