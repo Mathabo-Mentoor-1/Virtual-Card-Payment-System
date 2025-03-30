@@ -6,7 +6,6 @@
 For my Virtual-Card Payment System project the most suitable choice would be the Automated Kanban. Using the Automated Kanban, would allow me to automate the flow of tasks in the system, which is ideal for a Virtual-Card Payment System that requires frequent updates, iterations, and tracking of progress. Automation can help with managing the continuous development cycles, bug fixes, and deployment tasks typically required in such a complex system. I would be able to easily set up automated triggers to move tasks through different stages, ensuring smooth operations and faster response times. Therefore, Automated Kanban will help keep my project organized and on track, with automated processes to enhance efficiency.
 <br>
 <br>
-<br>
 
 **Comparison Table**
 <br>
