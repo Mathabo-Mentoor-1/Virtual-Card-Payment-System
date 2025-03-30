@@ -1,11 +1,7 @@
-####  **Kanban Board Screenshots**
-![Uploading image.png…]() 
+###  **Kanban Board Screenshots**
 
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/b41e1294-3fae-4055-a18d-4b3a1e0f292b) 
+<br>
 
 
 
