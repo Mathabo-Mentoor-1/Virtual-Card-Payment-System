@@ -10,7 +10,7 @@
 
 **1\. Visualizing Workflow**
 
-*   In a virtual-card payment system, the Kanban board would typically represent the various stages of the payment process, from initiation to final approval or rejection. The stages on the board can be categorized into columns that represent the flow of tasks (payments) as they progress through the system. Here's an example of how this might look:
+*   In a virtual-card payment system, the Kanban board would typically represent the various stages of the payment process, from initiation to final approval or rejection. The stages on the board can be categorized into columns that represent the flow of tasks (payments) as they progress through the system.
     
 
 1.  Backlog: Payment requests waiting to be processed.
