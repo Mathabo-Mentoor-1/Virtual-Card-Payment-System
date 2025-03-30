@@ -1,12 +1,8 @@
 ###  **Kanban Board Screenshots**
-
 ![image](https://github.com/user-attachments/assets/b41e1294-3fae-4055-a18d-4b3a1e0f292b) 
 <br>
-
-
-
-
-
+<br>
+![image](https://github.com/user-attachments/assets/68c183ec-9487-4985-96e7-2da77b70d9ca)  
 <br>
 <br>
 
