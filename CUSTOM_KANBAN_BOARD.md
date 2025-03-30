@@ -1,5 +1,11 @@
-#### **Kanban Board Screenshots**
-![Uploading image.png…]()
+####  **Kanban Board Screenshots**
+![Uploading image.png…]() 
+
+
+
+
+
+
 
 
 
@@ -7,6 +13,7 @@
 
 <br>
 <br>
+
 #### 1\. **Backlog**
 
 *   **Purpose**: The "Backlog" column holds tasks that need to be worked on but haven't been prioritized for the current sprint or iteration yet.
