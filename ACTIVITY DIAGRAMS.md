@@ -2,6 +2,7 @@
 # Activity Diagrams
 
 <br>
+
 ## 1. User Registration and Identity Verification
 
 ```mermaid
