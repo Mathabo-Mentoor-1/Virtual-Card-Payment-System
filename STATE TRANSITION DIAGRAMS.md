@@ -1,10 +1,5 @@
-### State Transition Diagrams
-<br>
-
-1. Virtual Card Number
-
- stateDiagram-v2
-     --> Inactive
+stateDiagram-v2
+    [*] --> Inactive
     Inactive --> Active : Activate
     Active --> Pending : Payment Initiated
     Pending --> Approved : Payment Approved
@@ -14,7 +9,8 @@
     Used --> Inactive : Deactivate Card
     Active --> Suspended : Suspend Card
     Suspended --> Active : Reactivate Card
-    Inactive -->
+
+
 
 
 
