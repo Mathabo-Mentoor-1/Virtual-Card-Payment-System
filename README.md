@@ -18,8 +18,8 @@ Links:
 - Specifications: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/SPECIFICATION.md)
 - Architecture: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ARCHITECTURE.md)
 - Agile Planning Document: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/AGILE%20PLANNING%20DOC.md)
-- State  Transition Diagrams:
-- State Dioagrams Explanation:
-- Activity Diagram:
-- Activity Diagram Explanation:
+- State  Transition Diagrams:(https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/STATE%20TRANSITION%20DIAGRAMS.md )
+- State Diagrams Explanation:(https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/STATE%20DIAGRAMS%20EXPLANATION.md)
+- Activity Diagrams: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS.md )
+- Activity Diagrams Explanation: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS%20EXPLANATION.md )
   
