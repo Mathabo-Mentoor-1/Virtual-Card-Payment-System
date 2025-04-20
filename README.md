@@ -13,4 +13,17 @@
 
 #### **Links:**
 
+| No. | Deliverable                   | Link                                                                                                                                                                                                                               |
+| --- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Activity Diagrams             | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS.md)                             |
+| 2   | Activity Diagrams Explanation | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS%20EXPLANATION.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS%20EXPLANATION.md) |
+| 3   | Agile Planning Document       | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/AGILE%20PLANNING%20DOC.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/AGILE%20PLANNING%20DOC.md)                       |
+| 4   | Architecture                  | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ARCHITECTURE.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ARCHITECTURE.md)                                           |
+| 5   | Class Diagram                 | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/CLASS%20DIAGRAM.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/CLASS%20DIAGRAM.md)                                     |
+| 6   | Design Choices                | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/DESIGN%20CHOICES.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/DESIGN%20CHOICES.md)                                   |
+| 7   | Domain Model Description      | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/DOMAIN%20MODEL.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/DOMAIN%20MODEL.md)                                       |
+| 8   | Pattern Rationales            | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/PATTERN%20RATIONALES.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/PATTERN%20RATIONALES.md)                           |
+| 9   | Specifications                | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/SPECIFICATION.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/SPECIFICATION.md)                                         |
+| 10  | State Diagrams Explanation    | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/STATE%20DIAGRAMS%20EXPLANATION.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/STATE%20DIAGRAMS%20EXPLANATION.md)       |
+| 11  | State Transition Diagrams     | [https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/STATE%20TRANSITION%20DIAGRAMS.md](https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/STATE%20TRANSITION%20DIAGRAMS.md)         |
   
