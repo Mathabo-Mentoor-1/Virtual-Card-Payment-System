@@ -21,5 +21,6 @@
 - Activity Diagrams Explanation: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS%20EXPLANATION.md )
 - Domain Model Description: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/DOMAIN%20MODEL.md)
 - Class Diagram: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/CLASS%20DIAGRAM.md)
-- Class Implementation: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/CLASS%20IMPLEMENTATION.md)
+- Design Choices: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/DESIGN%20CHOICES.md)
+- Pattern Rationales: ()
   
