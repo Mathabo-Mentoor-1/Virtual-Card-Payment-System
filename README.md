@@ -12,15 +12,5 @@
 - Since virtual cards are only accessible digitally and not physically, they can't be lost or stolen in the traditional sense. If your virtual card number is compromised, you can simply generate a new one.
 
 #### **Links:**
-- Specifications: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/SPECIFICATION.md)
-- Architecture: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ARCHITECTURE.md)
-- Agile Planning Document: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/AGILE%20PLANNING%20DOC.md)
-- State  Transition Diagrams:(https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/STATE%20TRANSITION%20DIAGRAMS.md )
-- State Diagrams Explanation:(https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/STATE%20DIAGRAMS%20EXPLANATION.md)
-- Activity Diagrams: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS.md )
-- Activity Diagrams Explanation: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS%20EXPLANATION.md )
-- Domain Model Description: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/DOMAIN%20MODEL.md)
-- Class Diagram: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/CLASS%20DIAGRAM.md)
-- Design Choices: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/DESIGN%20CHOICES.md)
-- Pattern Rationales: ()
+
   
