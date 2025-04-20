@@ -1,7 +1,4 @@
 ### **VIRTUAL-CARD PAYMENT SYSTEM**
-
-Project Title: Virtual-Card Payment System
-
 ####  **Description:**
 - This system will be an improvement to an existing process of loading money on to the MyCiti "myconnect" transport card.
 - Currently the process uses a card-based payment system to load money to travel for a week, month, or more.
@@ -23,5 +20,6 @@ Project Title: Virtual-Card Payment System
 - Activity Diagrams: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS.md )
 - Activity Diagrams Explanation: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/ACTIVITY%20DIAGRAMS%20EXPLANATION.md )
 - Domain Model Description: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/DOMAIN%20MODEL.md)
-- Class Diagram: ()
+- Class Diagram: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/CLASS%20DIAGRAM.md)
+- Class Implementation: (https://github.com/Mathabo-Mentoor-1/Virtual-Card-Payment-System/blob/main/CLASS%20IMPLEMENTATION.md)
   
