@@ -1,0 +1,56 @@
+import pytest
+from httpx import AsyncClient
+from main import app
+from sqlmodel import SQLModel, create_engine
+from models import VirtualCard
+
+# Use a test DB
+TEST_DB_URL = "sqlite:///./test_virtual_cards.db"
+test_engine = create_engine(TEST_DB_URL, connect_args={"check_same_thread": False})
+
+@pytest.fixture(autouse=True, scope="module")
+def prepare_db():
+    SQLModel.metadata.create_all(test_engine)
+    yield
+    SQLModel.metadata.drop_all(test_engine)
+
+@pytest.mark.asyncio
+async def test_full_card_lifecycle_and_errors():
+    async with AsyncClient(app=app, base_url="http://test") as client:
+        # Create card
+        response = await client.post("/cards/", json={"holder_name": "Test User"})
+        assert response.status_code == 200
+        card = response.json()
+        card_id = card["id"]
+
+        # Fund card
+        await client.post(f"/cards/{card_id}/fund", json={"amount": 50.0})
+
+        # Try charging more than the balance
+        response = await client.post(f"/cards/{card_id}/charge", json={"amount": 100.0})
+        assert response.status_code == 400
+        assert response.json()["detail"] == "Insufficient balance"
+
+        # Deactivate card
+        await client.put(f"/cards/{card_id}", json={"is_active": False})
+
+        # Try funding inactive card
+        response = await client.post(f"/cards/{card_id}/fund", json={"amount": 10.0})
+        assert response.status_code == 404
+        assert response.json()["detail"] == "Active card not found"
+
+        # Try charging inactive card
+        response = await client.post(f"/cards/{card_id}/charge", json={"amount": 10.0})
+        assert response.status_code == 404
+        assert response.json()["detail"] == "Active card not found"
+
+        # Try getting a non-existent card
+        response = await client.get("/cards/00000000-0000-0000-0000-000000000000")
+        assert response.status_code == 404
+
+        # Try deleting a non-existent card
+        response = await client.delete("/cards/00000000-0000-0000-0000-000000000000")
+        assert response.status_code == 404
+
+        # Clean up
+        await client.delete(f"/cards/{card_id}")
